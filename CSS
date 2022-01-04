@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-family: 'Montserrat', sans-serif;
+
+  }
+  
+  body {
+    background: #efefef;
+    margin: 0;
+  }
+  
+  header {
+    background: #03A9F4;
+    width: 100%;
+    clear: both;
+    content:'';
+    display: table;
+  }
+
+  #Caja {
+    background: #ebe1e1 none repeat scroll 0 0;
+    border: 1px solid rgb(196, 190, 190);
+    display: table;
+    font: 250% sans-serif;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  .menu {
+    width: 900px;
+    margin: 0 auto;
+  }
+  
+  img {
+    width: 120px;
+    height: 50px;
+    float: left;
+    padding: 8px;
+  
+  }
+  
+  nav {
+    float: right;
+  }
+  
+  nav ul li {
+    list-style: none;
+    margin-left: 75px;
+    padding: 12px 0;
+    float: left;
+    position: relative;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+  }
+  
+  nav ul li a::before {
+    display: block;
+    content: '';
+    width: 0%;
+    background: #444;
+    height: 5px;
+    top:0;
+    position: absolute;
+    transition: width 0.2s;
+  }
+  
+  nav ul li a:hover::before {
+    width: 100%;
+  }
+
+  #smart-button-container {
+    
+    width: 150px;
+    height: 150px;
+    padding-inline: 600px;
+    }
